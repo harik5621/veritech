@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    top: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pg-head{
+}
+#header{
+    z-index: 1;
+    background: white;
+    position: fixed;
+    height: 74px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 2px 6px black;
+}
+.header-h1{
+    position: relative;
+    top: 14px;
+    left: 35px;
+    color: green;
+    font-size: 36px;
+
+}
+.header-h1::after{
+    content: "!";
+    color:#a32edeeb ;
+}
+.header-bar{
+    position: relative;
+    left: 1123px;
+    font-size: 17px;
+    top: 28px;
+}
+.header-menus-li{
+    display: inline;
+    margin-left: 37px;
+    position: relative;
+    top: 12px;
+    font-size: 18px;
+    left: 196px;
+}
+.header-menus-li-a{
+    text-decoration: none;
+    color: #5b5454;
+}
+.header-menus-li-a:hover{
+    color: #652edeeb;;
+}
+
+
+#comp-name{
+    position: relative;
+    top: 108px;
+}
+.comp-name{
+    padding-left: 35px;
+    position: relative;
+    padding-top: 10px;
+    left: 767px;
+    background: rgb(232, 27, 229);
+    height: 46px;
+    width: 446px;
+    border-radius: 16px;
+}
+.comp-name-para{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+hr{
+    position: relative;
+    top: 32px;
+    height: 2px;
+    border-width: 0px;
+    color: gray;
+    background-color: gray;
+}
+
+.teams{
+    position: relative;
+    top: 165px;
+}
+.team-para{
+    font-size: 31px;
+    position: relative;
+    padding-left: 874px;
+
+}
+.comp-team{
+    padding-left: 35px;
+    position: relative;
+    top: 10px;
+    padding-top: 10px;
+    left: 770px;
+
+    background: rgb(232, 27, 229);
+    height: 46px;
+    width: 446px;
+    border-radius: 16px;
+}
+
+.team-box-leader{
+    position: relative;
+    top: 202px;
+}
+#our-team-head{
+    text-align: center;
+    
+}
+#our-team-boxs{
+    display: flex;
+    height: 560px;
+    position: relative;
+    padding-left: 285px;
+}
+
+.profile-img-1{
+    height: 400px;
+    width: 400px;
+    margin-left: 81px;
+    margin-top: 35px;
+    border-radius: 16px;
+
+}
+.service-profile-content{
+    background: white;
+    width: 315px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left: 125px;
+    margin-top: -136px;
+    border-radius: 17px;
+    box-shadow: 2px 2px 8px black;
+}
+.service-profile-content-h2{
+    position: relative;
+    top: 26px;
+}
+#profile-1-logo{
+    font-size: 65px;
+    position: relative;
+    top: -31px;
+    color: blueviolet;
+}
+#service-porfile{
+    
+}
+.profile{
+    
+}
+.profile:hover{
+    color: darkblue;
+
+}
+#profile-boxes{
+    display: flex;
+}
+.hr {
+    position: relative;
+    top: 189px;
+    height: 2px;
+    border-width: 0px;
+    color: gray;
+    background-color: gray;
+}
+
+
+.teams-devop{
+    position: relative;
+    top: 165px;
+}
+.comp-devop-team{
+    padding-left: 47px;
+    position: relative;
+    top: 60px;
+    padding-top: 10px;
+    left: 867px;
+    background: rgb(232, 27, 229);
+    height: 46px;
+    width: 298px;
+    border-radius: 16px;
+}
+
+.team-box-leader{
+    position: relative;
+    top: 202px;
+}
+#our-team-head{
+    text-align: center;
+    
+}
+#our-team-boxs{
+    display: flex;
+    height: 560px;
+    position: relative;
+    padding-left: 285px;
+}
+
+.profile-img-1{
+    height: 400px;
+    width: 400px;
+    margin-left: 81px;
+    margin-top: 35px;
+    border-radius: 16px;
+
+}
+.service-profile-content{
+    background: white;
+    width: 315px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left: 125px;
+    margin-top: -136px;
+    border-radius: 17px;
+    box-shadow: 2px 2px 8px black;
+}
+.service-profile-content-h2{
+    position: relative;
+    top: 26px;
+}
+#profile-1-logo{
+    font-size: 65px;
+    position: relative;
+    top: -31px;
+    color: blueviolet;
+}
+#service-porfile{
+    
+}
+.profile{
+    
+}
+.profile:hover{
+    color: darkblue;
+
+}
+#profile-boxes{
+    display: flex;
+}
+.team-box-develop {
+    position: relative;
+    top: 279px;
+
+
+}
+
+.hr-2 {
+    position: relative;
+    top: 264px;
+    height: 2px;
+    border-width: 0px;
+    color: gray;
+    background-color: gray;
+}
+
+.teams-sales {
+    position: relative;
+    top: 220px;
+}
+.comp-sales-team {
+    padding-left: 54px;
+    position: relative;
+    top: 60px;
+    padding-top: 10px;
+    left: 821px;
+    background: rgb(232, 27, 229);
+    height: 46px;
+    width: 403px;
+    border-radius: 16px;
+}
+
+
+
+
+
+#veritech{
+    position: relative;
+    top: 307px;
+}
+#footer-content{
+    background: #485664;
+    height: 347px;
+}
+#footer-container{
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#footer-rows{
+    display: flex;
+    padding-top: 40px;
+}
+#herobiz-contact-info{
+    position: relative;
+    top: 8px;
+    height: 300px;
+    width: 25%;
+    line-height: 31px;
+    color: white;
+}
+#useful-links{
+    height: 300px;
+    width: 20%;
+    line-height: 44px;
+    color: white;
+}
+#footer-our-service{
+    height: 300px;
+    width: 20%;
+    line-height: 44px;
+    color: white;
+}
+#our-newsletter{
+    
+    height: 300px;
+    width: 35%;
+    line-height: 44px;
+    color: white;
+}
+.useful-links-li{
+    display: flex;
+    position: relative;
+    left: -37px;
+}
+.useful-links-li-btn{
+    text-decoration: none;
+    color: white;
+}
+#useful-links-li-icon{
+    padding-top: 14px;
+    padding-right: 5px;
+}
+#our-newsletter-email{
+    height: 39px;
+    width: 316px;
+}
+#our-newsletter-submit{
+    height: 45px;
+    width: 146px;
+    font-size: 16px;
+    background: #3b3bed;
+    color: white;
+    font-weight: bold;
+}
+#our-newsletter-post{
+    position: relative;
+    top: 50px;
+}
+#media{
+    background: #2a2d31;
+    height: 84px;
+}
+.media-container{
+    display: flex;
+}
+.media-content{
+    position: relative;
+    top: 21px;
+    left: 66px;
+    color: white;
+    height: 45px;
+    width: 381px;
+}
+.hero-media{
+    display: flex;
+    position: relative;
+    top: 24px;
+    left: 700px;
+    color: white;
+}
+.media-icon{
+
+}
+#media-icon{
+    font-size: 32px;
+    padding-left: 15px;
+    color: white;
+}
+.media-icon-a{
+    color: white;
+}
